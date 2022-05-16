@@ -1,1 +1,21 @@
 /*styles*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    background: #f0f2f5;
+    min-width: 500px;
+    width: auto;
+    min-height: 640px;
+}
+
+.intro {
+    flex-basis: 55%;
+}
+
+.login {
+    flex-basis: 45%;
+}
