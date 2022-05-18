@@ -182,15 +182,39 @@ input:focus {
 }
 
 .footer {
-    width: 1200px;
+    width: 1000px;
     margin: auto;
 }
 
-ul {
-    display: inline;
-    
+.languages {
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+.services {
+    margin-top: 10px;
+    margin-bottom: 20px
 }
 
 li {
+    display: inline;
+    list-style: none;
     cursor: pointer;
+    margin-right: 15px;
+    color: #8a8d91;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-bottom: 20px;
+}
+
+.copyright > h3 {
+    font-size: 11px;
+    color: #737373;
 }
