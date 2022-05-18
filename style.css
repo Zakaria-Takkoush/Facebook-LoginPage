@@ -6,6 +6,13 @@
     font-weight: normal;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .page {
     background: #f0f2f5;
     height: auto;
@@ -63,6 +70,8 @@
 .login {
     width: 45%;
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .login-box {
@@ -181,9 +190,13 @@ input:focus {
     cursor: pointer;
 }
 
+/* Footer */
+
 .footer {
     width: 1000px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .languages {
@@ -225,4 +238,62 @@ li:hover {
     font-size: 20px;
     color: #737373;
     cursor: pointer;
+}
+
+/* Media Querries */
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .intro {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .intro > div {
+        margin: auto;
+    }
+    .fb-logo {
+        margin: auto;
+    }
+    .fb-logo > img {
+        height: 110px;
+        width: 390px;
+    }
+    .fb-desc {
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 80%;
+    }
+    .fb-desc > h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .login {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .login-box {
+        margin: auto;
+        width: 400px;
+    }
+    .create-page {
+        text-align: center;
+        margin-top: 28px;
+        margin-bottom: 120px;
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+        padding-right: 30px;
+        padding-left: 30px;
+        justify-content: center;
+    }
+    .copyright {
+        width: 100%;
+    }
 }
