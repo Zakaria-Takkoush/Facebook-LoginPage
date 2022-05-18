@@ -70,7 +70,7 @@
     margin: 40px 0 0;
     padding-top: 20px;
     padding-bottom: 15px;
-    width: 396px;
+    width: 400px;
 }
 
 input {
@@ -148,6 +148,25 @@ input {
 .forgot-pass:hover {
     text-decoration: underline;
     text-decoration-color: #1877f2;
+}
+
+.create-page {
+    text-align: center;
+    margin-top: 28px;
+    width: 400px;
+}
+
+.create-page > h2 {
+    font-size: 14px;
+}
+
+.create-page b {
+    font-weight: bold;
+}
+
+.create-page b:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 li {
