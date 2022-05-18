@@ -68,7 +68,8 @@
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
     box-sizing: border-box;
     margin: 40px 0 0;
-    padding: 20px 0 28px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     width: 396px;
 }
 
@@ -76,7 +77,7 @@ input {
     border-radius: 6px;
     font-size: 17px;
     padding: 14px ;
-    width: 90%;
+    width: 85%;
     background: #FFFFFF url(/rsrc.php/v3/yO/r/YQNfPR9MJfx.png) repeat-x;
     border: 1px solid #dddfe2;
     color: #1d2129;
@@ -106,7 +107,7 @@ input {
     background-color: #42b72a;
     border: none;
     border-radius: 6px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 48px;
     padding: 0 16px;
     width: auto;
@@ -124,8 +125,29 @@ input {
 
 .hline {
     width: 90%;
-    border-bottom: 1px solid #dadde1;
     margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.hline > hr {
+    border-bottom: 0.1px solid #cad0d7;
+}
+
+.forgot-pass {
+    margin: 10px 10px;
+    width: auto;
+}
+
+.forgot-pass > h2 {
+    color: #1877f2;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.forgot-pass:hover {
+    text-decoration: underline;
+    text-decoration-color: #1877f2;
 }
 
 li {
